@@ -7,3 +7,13 @@ spring:
             clientId: <facebook client id>
             clientSecret: <facebook client secret>
             scope: email, public_profile
+#  data:
+#    rest:
+#      base-path: /data-api
+
+server:
+  port: 8087
+#  ssl:
+#    key-store: file:src/main/resources/mykeys.jks
+#    key-store-password: ibragim
+#    key-password: ibragim

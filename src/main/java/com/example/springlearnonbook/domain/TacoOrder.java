@@ -1,7 +1,10 @@
 package com.example.springlearnonbook.domain;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.CreditCardNumber;
+import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -17,6 +20,9 @@ import java.util.List;
 
 @Data
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@RestResource(rel = "orders", path = "orders")
 public class TacoOrder implements Serializable {
 
     private static final long serialVersionUID = 1L;
