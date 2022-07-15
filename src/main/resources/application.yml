@@ -7,13 +7,21 @@ spring:
             clientId: <facebook client id>
             clientSecret: <facebook client secret>
             scope: email, public_profile
+  jms:
+    template:
+      default-destination: tacocloud.order.queue
+
+#  rabbitmq:
+#    template:
+#      exchange: tacocloud.order
+#      routing-key: kitchens.central
 #  data:
 #    rest:
 #      base-path: /data-api
 
 server:
-  port: 8087
-#  ssl:
-#    key-store: file:src/main/resources/mykeys.jks
-#    key-store-password: ibragim
-#    key-password: ibragim
+  port: 8443
+  ssl:
+    key-store: file:src/main/resources/mykeys.jks
+    key-store-password: ibragim
+    key-password: ibragim

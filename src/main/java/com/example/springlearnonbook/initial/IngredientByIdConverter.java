@@ -1,4 +1,4 @@
-package com.example.springlearnonbook;
+package com.example.springlearnonbook.initial;
 
 import com.example.springlearnonbook.domain.Ingredient;
 import com.example.springlearnonbook.repository.IngredientRepository;
@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
-@NoArgsConstructor
 public class IngredientByIdConverter implements Converter<String, Ingredient> {
 
     private IngredientRepository ingredientRepository;
