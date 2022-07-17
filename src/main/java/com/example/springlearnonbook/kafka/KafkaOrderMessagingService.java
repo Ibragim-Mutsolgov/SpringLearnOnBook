@@ -1,5 +1,5 @@
 package com.example.springlearnonbook.kafka;
-
+/*
 import com.example.springlearnonbook.domain.TacoOrder;
 import com.example.springlearnonbook.service.KafkaMessagingService;
 import lombok.AllArgsConstructor;
@@ -20,3 +20,4 @@ public class KafkaOrderMessagingService implements KafkaMessagingService {
         kafkaTemplate.send(KafkaConfiguration.TOPIC, tacoOrder);
     }
 }
+*/

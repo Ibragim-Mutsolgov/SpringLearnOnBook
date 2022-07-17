@@ -1,5 +1,5 @@
 package com.example.springlearnonbook.kafka;
-
+/*
 import com.example.springlearnonbook.service.KafkaMessagingService;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
@@ -11,8 +11,9 @@ public class KafkaApi {
 
     private KafkaMessagingService service;
 
-    @Bean
-    public void sendKafka(){
-        service.sendOrder();
-    }
+//    @Bean
+//    public void sendKafka(){
+//        service.sendOrder();
+//    }
 }
+*/

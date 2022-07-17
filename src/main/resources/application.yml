@@ -25,3 +25,11 @@ server:
     key-store: file:src/main/resources/mykeys.jks
     key-store-password: ibragim
     key-password: ibragim
+
+tacocloud:
+  email:
+    host: https://mail.google.com/mail/u/0/#inbox
+    mailbox: Google Inbox
+    username: grinnosse@gmail.com
+    password: Gsm19972789sanemiGsm
+    pollRate: 30000
