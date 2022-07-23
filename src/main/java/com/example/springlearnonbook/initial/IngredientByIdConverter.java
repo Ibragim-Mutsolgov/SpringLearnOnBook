@@ -1,9 +1,8 @@
 package com.example.springlearnonbook.initial;
 
 import com.example.springlearnonbook.domain.Ingredient;
-import com.example.springlearnonbook.repository.IngredientRepository;
+import com.example.springlearnonbook.web.repository.IngredientRepository;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 

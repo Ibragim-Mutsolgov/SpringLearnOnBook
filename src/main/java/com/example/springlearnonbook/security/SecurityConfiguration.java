@@ -1,7 +1,7 @@
 package com.example.springlearnonbook.security;
 
 import com.example.springlearnonbook.domain.Users;
-import com.example.springlearnonbook.repository.UsersRepository;
+import com.example.springlearnonbook.web.repository.UsersRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
