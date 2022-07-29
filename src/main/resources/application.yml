@@ -28,8 +28,4 @@ server:
 
 tacocloud:
   email:
-    host: https://mail.google.com/mail/u/0/#inbox
-    mailbox: Google Inbox
-    username: grinnosse@gmail.com
-    password: Gsm19972789sanemiGsm
-    pollRate: 30000
+    
